@@ -1,0 +1,23 @@
+<!-- 종이인형 레이어 1: 몸(피부). 머리 원 + 목/몸통/팔/다리.
+     viewport 100x150 안의 절대좌표로 그린다. 머리 중심(50,30) 반지름 16 의 원은
+     cubic bezier 4개로 근사(arc 대신 bezier 가 결과 예측이 쉬움). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="150dp"
+    android:viewportWidth="100"
+    android:viewportHeight="150">
+    <!-- 머리(원) -->
+    <path
+        android:pathData="M50,14 C58.8,14 66,21.2 66,30 C66,38.8 58.8,46 50,46 C41.2,46 34,38.8 34,30 C34,21.2 41.2,14 50,14 Z"
+        android:fillColor="#FFE8B07A" />
+    <!-- 목 -->
+    <path android:pathData="M46,44 L54,44 L54,52 L46,52 Z" android:fillColor="#FFE8B07A" />
+    <!-- 몸통 -->
+    <path android:pathData="M34,50 L66,50 L66,94 L34,94 Z" android:fillColor="#FFE8B07A" />
+    <!-- 왼팔 / 오른팔 -->
+    <path android:pathData="M26,52 L34,52 L34,86 L26,86 Z" android:fillColor="#FFE8B07A" />
+    <path android:pathData="M66,52 L74,52 L74,86 L66,86 Z" android:fillColor="#FFE8B07A" />
+    <!-- 왼다리 / 오른다리 -->
+    <path android:pathData="M40,94 L48,94 L48,136 L40,136 Z" android:fillColor="#FFE8B07A" />
+    <path android:pathData="M52,94 L60,94 L60,136 L52,136 Z" android:fillColor="#FFE8B07A" />
+</vector>

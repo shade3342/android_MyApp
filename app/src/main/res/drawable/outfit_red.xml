@@ -1,0 +1,12 @@
+<!-- 종이인형 레이어 3-A: 빨간 옷. 몸통(상의) + 양다리 위쪽(반바지)을 덮는다.
+     몸 레이어의 몸통(50~94)·다리(94~) 위에 얹혀 피부를 가린다. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="150dp"
+    android:viewportWidth="100"
+    android:viewportHeight="150">
+    <!-- 상의(어깨~허리) + 반바지(양다리 갈라짐) -->
+    <path
+        android:pathData="M30,50 L70,50 L70,78 L60,78 L60,104 L52,104 L52,80 L48,80 L48,104 L40,104 L40,78 L30,78 Z"
+        android:fillColor="#FFD64545" />
+</vector>

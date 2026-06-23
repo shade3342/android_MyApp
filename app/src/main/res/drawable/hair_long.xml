@@ -1,0 +1,11 @@
+<!-- 종이인형 레이어 2-B: 긴 머리. 윗 돔 + 얼굴 양옆을 어깨까지 감싸는 옆머리.
+     바깥 윤곽을 한붓그리기로 그린 뒤, 가운데(얼굴)는 비워 두도록 안쪽 곡선으로 되돌아온다. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="150dp"
+    android:viewportWidth="100"
+    android:viewportHeight="150">
+    <path
+        android:pathData="M30,32 C30,14 70,14 70,32 L70,72 L62,72 L62,34 C62,24 38,24 38,34 L38,72 L30,72 Z"
+        android:fillColor="#FF3A2A4A" />
+</vector>

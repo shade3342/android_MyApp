@@ -1,0 +1,11 @@
+<!-- 종이인형 레이어 3-B: 파란 옷. outfit_red 와 같은 모양, 색만 다름.
+     '같은 자리/같은 좌표, 색·디자인만 교체' 가 종이인형의 핵심(레이어 swap). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="150dp"
+    android:viewportWidth="100"
+    android:viewportHeight="150">
+    <path
+        android:pathData="M30,50 L70,50 L70,78 L60,78 L60,104 L52,104 L52,80 L48,80 L48,104 L40,104 L40,78 L30,78 Z"
+        android:fillColor="#FF3B6FD6" />
+</vector>
